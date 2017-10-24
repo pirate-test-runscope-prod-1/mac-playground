@@ -42,7 +42,7 @@ class ViewController: NSViewController {
         playersController.addObserver(self, forKeyPath: "arrangedObjects.name", options: [.new, .initial], context: &myContext)
     }
     
-    override func observeValue(forKeyPath keyPath: String?, of object: AnyObject?, change: [NSKeyValueChangeKey : AnyObject]?, context: UnsafeMutablePointer<Swift.Void>?) {
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         guard context == &myContext else { return }
         
         // Compare players score and display the best player information.
