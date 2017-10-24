@@ -12,7 +12,7 @@ class ClickableStepperCell : NSStepperCell {
     
     // MARK: NSCell
 
-    override func hitTest(for event: NSEvent, in cellFrame: NSRect, of controlView: NSView) -> NSCellHitResult {
-        return .trackableArea
+    override func hitTest(for event: NSEvent, in cellFrame: NSRect, of controlView: NSView) -> NSCell.HitResult {
+        return NSCell.HitResult.trackableArea
     }
 }

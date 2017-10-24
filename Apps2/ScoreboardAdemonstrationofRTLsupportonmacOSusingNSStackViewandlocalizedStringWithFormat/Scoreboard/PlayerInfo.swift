@@ -12,11 +12,11 @@ import Cocoa
 class PlayerInfo: NSObject, NSCoding {
     // MARK: Properties
 
-    dynamic var name: String
+    @objc dynamic var name: String
     
-    dynamic var score: Int
+    @objc dynamic var score: Int
     
-    dynamic var image: NSImage
+    @objc dynamic var image: NSImage
     
     // MARK: Initialization
     
@@ -28,7 +28,7 @@ class PlayerInfo: NSObject, NSCoding {
             self.image = image
         }
         else {
-            self.image = NSImage(named: "NSUserGuest")!
+            self.image = NSImage(named: NSImage.Name(rawValue: "NSUserGuest"))!
         }
     }
     

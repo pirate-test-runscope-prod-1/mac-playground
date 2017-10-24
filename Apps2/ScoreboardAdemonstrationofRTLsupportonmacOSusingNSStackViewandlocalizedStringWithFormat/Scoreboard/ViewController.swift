@@ -20,7 +20,7 @@ class ViewController: NSViewController {
     
     @IBOutlet var playersController: NSArrayController!
     
-    dynamic var players = [PlayerInfo]()
+    @objc dynamic var players = [PlayerInfo]()
     
     // MARK: NSViewController
     
