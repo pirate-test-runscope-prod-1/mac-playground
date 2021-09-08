@@ -9,7 +9,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.piratespaceship.macPlayground</key>
-		<string>Mac-Playground</string>
+		<string>49cbfe8d-2fe6-4e7c-b733-3c19579a4ab4</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>Apple Development</string>
