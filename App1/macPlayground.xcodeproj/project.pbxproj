@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84D2D1F926E8D89900536574 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D2D1F826E8D89900536574 /* ExportOptions.plist */; };
 		B9861FB71F9A2E7700075D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9861FB61F9A2E7700075D55 /* AppDelegate.swift */; };
 		B9861FB91F9A2E7700075D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9861FB81F9A2E7700075D55 /* ViewController.swift */; };
 		B9861FBB1F9A2E7700075D55 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9861FBA1F9A2E7700075D55 /* Document.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84D2D1F826E8D89900536574 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		B9861FB31F9A2E7700075D55 /* macPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9861FB61F9A2E7700075D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9861FB81F9A2E7700075D55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		B9861FB51F9A2E7700075D55 /* macPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				84D2D1F826E8D89900536574 /* ExportOptions.plist */,
 				B9861FB61F9A2E7700075D55 /* AppDelegate.swift */,
 				B9861FB81F9A2E7700075D55 /* ViewController.swift */,
 				B9861FBA1F9A2E7700075D55 /* Document.swift */,
@@ -236,6 +239,7 @@
 			files = (
 				B9861FBD1F9A2E7700075D55 /* Assets.xcassets in Resources */,
 				B9861FC01F9A2E7800075D55 /* Main.storyboard in Resources */,
+				84D2D1F926E8D89900536574 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
