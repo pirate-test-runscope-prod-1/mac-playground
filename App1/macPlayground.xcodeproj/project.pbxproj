@@ -434,7 +434,7 @@
 				DEVELOPMENT_TEAM = BGSR8DRP9M;
 				INFOPLIST_FILE = macPlayground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.piratespaceship.macPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.piratespaceship.macPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Mac-Playground";
 				SWIFT_VERSION = 4.0;
@@ -470,7 +470,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = macPlaygroundTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.piratespaceship.macPlaygroundTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.piratespaceship.macPlaygroundTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -488,7 +488,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = macPlaygroundTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.piratespaceship.macPlaygroundTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.piratespaceship.macPlaygroundTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -505,7 +505,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = macPlaygroundUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.piratespaceship.macPlaygroundUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.piratespaceship.macPlaygroundUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -522,7 +522,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = macPlaygroundUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.piratespaceship.macPlaygroundUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.piratespaceship.macPlaygroundUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
